@@ -1,9 +1,6 @@
 package org.example.recursion;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
-public class Recursion {
+public class RecursionSucesionAritmetica {
     public static void generarSucesion(int elemento1, int elemento2, int posicion1, int posicion2, int cantidadTerminos , int indice) {
 
         if (indice >= cantidadTerminos) {
